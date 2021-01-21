@@ -14,7 +14,7 @@
 #include <tclap/CmdLine.h>
 #include <cppitertools/range.hpp>
 
-#include "Arguments.hpp"
+//#include "Arguments.hpp"
 
 using namespace std;
 using namespace std::literals;
@@ -30,7 +30,7 @@ int main(int argc, char* argv[]) {
 
 	// Exo 1 : Bonjour, le monde
 	// TODO: Faire un hello world.
-
+	cout << "Hello World" << endl;
 	// Exo 3 : Multiples de 3
 	// TODO: Afficher les multiples de 3 plus petits que `number` (passé en paramètre).
 
