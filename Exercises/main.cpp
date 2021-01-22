@@ -21,6 +21,7 @@ using namespace std::literals;
 
 
 // TODO: Déclarer une constante pour le facteur des multiples à calculer.
+const int factor = 3;
 // TODO: Déclarer une constante pour le taux de taxation.
 
 
@@ -31,10 +32,13 @@ int main(int argc, char* argv[]) {
 
 	// Exo 1 : Bonjour, le monde
 	// TODO: Faire un hello world.
-	cout << "Hello World" << endl;
+	cout << "Hello World" << endl << endl;
 	// Exo 3 : Multiples de 3
 	// TODO: Afficher les multiples de 3 plus petits que `number` (passé en paramètre).
-
+	for (int i : iter::range(3, args.number, 3)) {
+		cout << i << " ";
+	}
+	cout << "\n\n";
 
 	// Exo 4 : Facture
 	// TODO: Ouvrir le fichier et vérifier l'ouverture.
