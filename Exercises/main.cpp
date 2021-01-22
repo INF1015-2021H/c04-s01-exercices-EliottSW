@@ -14,7 +14,7 @@
 #include <tclap/CmdLine.h>
 #include <cppitertools/range.hpp>
 
-//#include "Arguments.hpp"
+#include "Arguments.hpp"
 
 using namespace std;
 using namespace std::literals;
@@ -27,12 +27,14 @@ using namespace std::literals;
 int main(int argc, char* argv[]) {
 	// Exo 2 : Arguments du programme
 	// TODO: Traiter les arguments de ligne de commande.
+	Arguments args = parseArgs(argc, argv);
 
 	// Exo 1 : Bonjour, le monde
 	// TODO: Faire un hello world.
 	cout << "Hello World" << endl;
 	// Exo 3 : Multiples de 3
 	// TODO: Afficher les multiples de 3 plus petits que `number` (passé en paramètre).
+
 
 	// Exo 4 : Facture
 	// TODO: Ouvrir le fichier et vérifier l'ouverture.
